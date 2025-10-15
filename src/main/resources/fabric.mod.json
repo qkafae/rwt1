@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rwt1",
+  "version": "${version}",
+  "name": "rwt1",
+  "description": "rework tests v1",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/rwt1/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.kafae.rwt1.client.Rwt1DataGenerator"
+    ],
+    "client": [
+      "me.kafae.rwt1.client.Rwt1Client"
+    ],
+    "main": [
+      "me.kafae.rwt1.Rwt1"
+    ]
+  },
+  "mixins": [
+    "rwt1.mixins.json",
+    {
+      "config": "rwt1.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
