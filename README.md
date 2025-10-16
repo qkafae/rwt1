@@ -1,3 +1,5 @@
 # Rework Tests v1
 
-coming soon...
+[] Armor reworks
+[] Enchantment Reworks
+[] Experience Reworks
