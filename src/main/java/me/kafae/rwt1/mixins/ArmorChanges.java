@@ -35,13 +35,13 @@ public class ArmorChanges {
 
         builder.add(
                 EntityAttributes.ARMOR,
-                new EntityAttributeModifier(identifier, newDefense, EntityAttributeModifier.Operation.ADD_VALUE), // ← CHANGED: newDefense
+                new EntityAttributeModifier(identifier, newDefense, EntityAttributeModifier.Operation.ADD_VALUE),
                 slot
         );
 
         builder.add(
                 EntityAttributes.ARMOR_TOUGHNESS,
-                new EntityAttributeModifier(identifier, toughness, EntityAttributeModifier.Operation.ADD_VALUE), // ← CHANGED: toughness
+                new EntityAttributeModifier(identifier, toughness, EntityAttributeModifier.Operation.ADD_VALUE),
                 slot
         );
 
@@ -67,8 +67,7 @@ public class ArmorChanges {
         } else if (self == ArmorMaterials.CHAIN) {
             return switch (type) {
                 case HELMET, BOOTS -> 1;
-                case CHESTPLATE -> 3;
-                case LEGGINGS -> 2;
+                case CHESTPLATE, LEGGINGS -> 3;
                 case BODY -> 4;
             };
         } else if (self == ArmorMaterials.IRON || self == ArmorMaterials.TURTLE_SCUTE) {
@@ -77,12 +76,6 @@ public class ArmorChanges {
                 case CHESTPLATE -> 4;
                 case LEGGINGS -> 3;
                 case BODY -> 5;
-            };
-        } else if (self == ArmorMaterials.GOLD) {
-            return switch (type) {
-                case HELMET, BOOTS -> 3;
-                case CHESTPLATE, LEGGINGS -> 4;
-                case BODY -> 7;
             };
         } else if (self == ArmorMaterials.DIAMOND || self == ArmorMaterials.ARMADILLO_SCUTE) {
             return switch (type) {
@@ -94,7 +87,7 @@ public class ArmorChanges {
             return switch (type) {
                 case HELMET, BOOTS -> 4;
                 case CHESTPLATE, LEGGINGS -> 6;
-                case BODY -> 11;
+                case BODY -> 19;
             };
         }
 

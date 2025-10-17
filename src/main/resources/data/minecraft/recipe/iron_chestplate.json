@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:iron_block",
+    "C": "minecraft:chainmail_chestplate"
+  },
+  "result": {
+    "id": "minecraft:iron_chestplate",
+    "count": 1
+  }
+}

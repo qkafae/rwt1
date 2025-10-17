@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": "minecraft:iron_helmet",
+    "r": "rwt1:rose_gold_alloy"
+  },
+  "pattern": [
+    "rrr",
+    "rir",
+    "rrr"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rwt1:rose_gold_helmet"
+  }
+}

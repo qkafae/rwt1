@@ -1,5 +1,6 @@
 package me.kafae.rwt1
 
+import me.kafae.rwt1.item.RwItem
 import me.kafae.rwt1.utils.DataStoreHandler
 import me.kafae.rwt1.utils.Logger
 import net.fabricmc.api.ModInitializer
@@ -23,6 +24,9 @@ class Rwt1 : ModInitializer {
     )
 
     override fun onInitialize() {
+
+        RwItem.init()
+
         logger.info("Initialized $ID")
     }
 
