@@ -2,12 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#C#",
-    "###"
+    "#c#"
   ],
   "key": {
-    "#": "minecraft:iron_block",
-    "C": "minecraft:chainmail_helmet"
+    "#": "minecraft:iron_ingot",
+    "c": "minecraft:chainmail_helmet"
   },
   "result": {
     "id": "minecraft:iron_helmet",

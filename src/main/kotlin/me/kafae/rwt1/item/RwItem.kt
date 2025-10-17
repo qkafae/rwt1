@@ -1,11 +1,13 @@
 package me.kafae.rwt1.item
 
+import com.ibm.icu.impl.CalendarAstronomer.Equatorial
 import me.kafae.rwt1.Rwt1
-import me.kafae.rwt1.item.materials.RoseGoldArmorMaterial
+import me.kafae.rwt1.item.materials.armor.RoseGoldArmorMaterial
 import me.kafae.rwt1.utils.Logger
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroups
+import net.minecraft.item.equipment.EquipmentAsset
 import net.minecraft.item.equipment.EquipmentType
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry

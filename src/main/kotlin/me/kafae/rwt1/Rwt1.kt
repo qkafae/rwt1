@@ -4,6 +4,11 @@ import me.kafae.rwt1.item.RwItem
 import me.kafae.rwt1.utils.DataStoreHandler
 import me.kafae.rwt1.utils.Logger
 import net.fabricmc.api.ModInitializer
+import net.minecraft.item.Item
+import net.minecraft.registry.Registries
+import net.minecraft.registry.Registry
+import net.minecraft.util.Identifier
+import net.minecraft.util.Rarity
 import java.nio.file.Path
 
 class Rwt1 : ModInitializer {
@@ -24,7 +29,6 @@ class Rwt1 : ModInitializer {
     )
 
     override fun onInitialize() {
-
         RwItem.init()
 
         logger.info("Initialized $ID")

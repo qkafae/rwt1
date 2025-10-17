@@ -47,7 +47,6 @@ class RecipeProvider(
                 )
                     .pattern("rrr")
                     .pattern("rir")
-                    .pattern("rrr")
                     .input('r', RwItem.ROSE_GOLD_ALLOY)
                     .input('i', Items.IRON_HELMET)
                     .criterion(hasItem(RwItem.ROSE_GOLD_ALLOY), conditionsFromItem(RwItem.ROSE_GOLD_ALLOY))
@@ -60,8 +59,8 @@ class RecipeProvider(
                     RecipeCategory.COMBAT,
                     RwItem.ROSE_GOLD_CHESTPLATE
                 )
-                    .pattern("rrr")
                     .pattern("rir")
+                    .pattern("rrr")
                     .pattern("rrr")
                     .input('r', RwItem.ROSE_GOLD_ALLOY)
                     .input('i', Items.IRON_CHESTPLATE)
@@ -77,7 +76,7 @@ class RecipeProvider(
                 )
                     .pattern("rrr")
                     .pattern("rir")
-                    .pattern("rrr")
+                    .pattern("r r")
                     .input('r', RwItem.ROSE_GOLD_ALLOY)
                     .input('i', Items.IRON_LEGGINGS)
                     .criterion(hasItem(RwItem.ROSE_GOLD_ALLOY), conditionsFromItem(RwItem.ROSE_GOLD_ALLOY))
@@ -90,9 +89,8 @@ class RecipeProvider(
                     RecipeCategory.COMBAT,
                     RwItem.ROSE_GOLD_BOOTS
                 )
-                    .pattern("rrr")
                     .pattern("rir")
-                    .pattern("rrr")
+                    .pattern("r r")
                     .input('r', RwItem.ROSE_GOLD_ALLOY)
                     .input('i', Items.IRON_BOOTS)
                     .criterion(hasItem(RwItem.ROSE_GOLD_ALLOY), conditionsFromItem(RwItem.ROSE_GOLD_ALLOY))

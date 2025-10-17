@@ -1,3 +1,7 @@
 // 1.21.10	-999999999-01-01T00:00:00	rwt1/Tags for minecraft:item
+710ee4de253c1f255777bfb6822d7c85015a1909 data/minecraft/tags/item/chest_armor.json
+057c09b02cad7fc9ccc2f6d0c2165ccf69b3a982 data/minecraft/tags/item/foot_armor.json
+867ccb572a80000e6382ea20c60b1d5eddfd9966 data/minecraft/tags/item/head_armor.json
+5a5626163a8e7555694de2022d0ccd68c7824faa data/minecraft/tags/item/leg_armor.json
 6529337c4d87cd57bc7712649b3a99779a18c10b data/minecraft/tags/item/trimmable_armor.json
 b3ed06a8c75ba60e9e6670efa732dc58a78240d9 data/rwt1/tags/item/repairs_rose_gold_armor.json

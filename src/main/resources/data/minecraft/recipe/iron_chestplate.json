@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "#c#",
     "###",
-    "#C#",
     "###"
   ],
   "key": {
-    "#": "minecraft:iron_block",
-    "C": "minecraft:chainmail_chestplate"
+    "#": "minecraft:iron_ingot",
+    "c": "minecraft:chainmail_chestplate"
   },
   "result": {
     "id": "minecraft:iron_chestplate",

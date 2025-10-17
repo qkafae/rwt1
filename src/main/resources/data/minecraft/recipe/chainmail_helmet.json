@@ -1,12 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iii",
-    "iLi",
-    "iii"
+    "###",
+    "#L#"
   ],
   "key": {
-    "i": "minecraft:iron_ingot",
+    "#": "minecraft:iron_chain",
     "L": "minecraft:leather_helmet"
   },
   "result": {
